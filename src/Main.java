@@ -28,6 +28,15 @@ public class Main {
 
                 //Задание 3.
         System.out.println("Дз-5. Задание 3.");
+                int year = 1996;
+                if (year % 100 == 0 && year % 400 == 0) {
+                    System.out.println(year + " год является високосным"); }
+                else if (year % 4 ==0 && year % 100 > 0) {
+                    System.out.println(year + " год является високосным!"); }
+                else if (year % 100 == 0) {
+                    System.out.println(year + " год не является високосным..."); }
+                else { System.out.println(year + " год не является високосным!"); }
+
 
     }
 }
