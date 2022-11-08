@@ -29,6 +29,5 @@ public class Main {
                 //Задание 3.
         System.out.println("Дз-5. Задание 3.");
 
-
     }
 }
